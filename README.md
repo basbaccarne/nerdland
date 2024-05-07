@@ -24,17 +24,19 @@ This repo covers the set-up of the nerdland installation. This introduces nerds 
 - Connect the distance sensor to A2
 - Upload the [Arduino code](/tests/integration.ino)
 - The arduino writes the data to the Serial Port in the folowing format
-  ```x_axis_thumb//y_axis_thumb//x_axis_gesture//y_axis_gesture//distance```
-- [ ] to do: add buttons to start and stop measurements
+  ```x_axis_thumb|y_axis_thumb|x_axis_gesture|y_axis_gesture|distance```
+- [ ] to do: add buttons to start and stop measurements [*Bas*][*nice to have*]
 
 ## Computational Design
-*Issue: Firefly doesn't have a timer module anymore for continuous serial.reads*   
-*Solution: [Fab Serial](https://github.com/m112521/fab-serial)*
-- Firefly configuration
-- Grasshopper
+- This Serial Data is read by Firefly and translated into computaional commands
+- [This example code](tests/grasshopper_testscript.gh) shows how the data is processed in Grasshopper
+- [ ] to do: create Grasshopper script for night lamp [*Yannick*]
+- [ ] to do: calibrate signal ranges to match parameters [*Bas*]
+      
 ## Advanced Manufacturing
-- Material
-- Process
+- The Grasshopper result is exported to an SVG and stored on a USB stick
+- The USB stick is used to print the design using a laser cutter
+- Material:
 ## Design for Assembly
 - Assembly movie
 - Examples
