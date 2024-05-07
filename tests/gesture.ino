@@ -1,4 +1,5 @@
 // Grove - Light Gesture Color Proximity Sensor (TMG39931)
+// https://wiki.seeedstudio.com/Grove-Light-Gesture-Color-Proximity_Sensor-TMG39931/
 
 #include <Wire.h>
 
