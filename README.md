@@ -25,7 +25,8 @@ This repo covers the set-up of the nerdland installation. This introduces nerds 
 - Upload the [Arduino code](/tests/arduino/integration.ino)
 - The arduino writes the data to the Serial Port in the folowing format
   ```x_axis_thumb|y_axis_thumb|x_axis_gesture|y_axis_gesture|distance```
-- [ ] to do: add buttons to start and stop measurements [*Bas*][*nice to have*]
+- [ ] Case design [*Bas en Yannick*]
+- [ ] to do: add buttons to start and stop measurements [*Bas*]
 - [ ] to do: add reset routine (incl. defaults params)
 
 ## Computational Design
