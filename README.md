@@ -22,7 +22,7 @@ This repo covers the set-up of the nerdland installation. This introduces nerds 
 - Connect the thumbstick to A0
 - Connec the Gesture sensor to I2C
 - Connect the distance sensor to A2
-- Upload the [Arduino code](/tests/integration.ino)
+- Upload the [Arduino code](/tests/arduino/integration.ino)
 - The arduino writes the data to the Serial Port in the folowing format
   ```x_axis_thumb|y_axis_thumb|x_axis_gesture|y_axis_gesture|distance```
 - [ ] to do: add buttons to start and stop measurements [*Bas*][*nice to have*]
@@ -30,7 +30,7 @@ This repo covers the set-up of the nerdland installation. This introduces nerds 
 
 ## Computational Design
 - This Serial Data is read by Firefly and translated into computaional commands
-- [This example code](tests/grasshopper_testscript.gh) shows how the data is processed in Grasshopper
+- [This example code](tests/grasshopper/grasshopper_testscript.gh) shows how the data is processed in Grasshopper
 - [ ] to do: create Grasshopper script for night lamp [*Yannick*]
 - [ ] to do: calibrate signal ranges to match parameters [*Bas*]
       
