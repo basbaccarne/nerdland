@@ -106,11 +106,15 @@ void getGesture() {
           break;
         case GES_UP_FLAG:
           // Serial.println("Up");
-          gest_y++;
+          if(gest_y < 2){
+            gest_y++;
+          } 
           break;
         case GES_DOWN_FLAG:
           // Serial.println("Down");
-          gest_y--;
+          if(gest_y > 0){
+            gest_y--;
+          } 
           break;
         previousMillis_gesEntryTime = currentMillis;
         }
