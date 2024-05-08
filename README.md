@@ -42,3 +42,6 @@ This repo covers the set-up of the nerdland installation. This introduces nerds 
 ## Design for Assembly
 - Assembly movie
 - Examples
+
+## End result
+![prototype](img/productv1.png)
