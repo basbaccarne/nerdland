@@ -27,7 +27,15 @@ Ultrasonic ultrasonic(2);
 long RangeInCentimeters;
 
 // buttons
-
+const int button1 = 4;
+const int button2 = 6;
+byte button3 = A2;
+const int led1 = 5;
+const int led2 = 7;
+byte led3 = A3;
+bool state1 = true;
+bool state2 = true;
+bool state3 = true;
 
 // Output parameters
 int thumb_x = 0;
@@ -48,6 +56,15 @@ void setup() {
   } else {
     Serial.println("INIT OK");
   }
+
+  // buttons
+  pinMode(button1, INPUT_PULLUP);
+  pinMode(button2, INPUT_PULLUP);
+  pinMode(button3, INPUT_PULLUP);
+
+  pinMode(led1, OUTPUT);
+  pinMode(led2, OUTPUT);
+  pinMode(led3, OUTPUT);
 }
 
 void getThumb() {
@@ -124,29 +141,61 @@ void getGesture() {
     }
   }
 }
+void buttons() {
+  if(!digitalRead(button1) && !state1){
+    state1 = !state1;
+    digitalWrite(led1, HIGH);
+  }
+  else if(digitalRead(button1) && state1){
+    state1 = !state1;
+    digitalWrite(led1, LOW);
+  }
+  
+  if(!digitalRead(button2) && !state2){
+    state2 = !state2;
+    digitalWrite(led2, HIGH);
+  }
+  else if(digitalRead(button2) && state2){
+    state2 = !state2;
+    digitalWrite(led2, LOW);
+  }
 
-  void loop() {
-    // Timer
-    currentMillis = millis();
+  if(!digitalRead(button3) && !state3){
+    state3 = !state3;
+    digitalWrite(led3, HIGH);
+  }
+  else if(digitalRead(button3) && state3){
+    state3 = !state3;
+    digitalWrite(led3, LOW);
+  }
+}
 
-    // Get the thumb data  and print the result to firefly each 200 ms
-    if (currentMillis - previousDelay > 200) {
+void loop() {
+  // Timer
+  currentMillis = millis();
+
+  // Get the thumb data  and print the result to firefly each 200 ms
+  if (currentMillis - previousDelay > 200) {
+    buttons();
+    if(state1){
       getThumb();
+      }
+    if(state2){
       getGesture();
+    }
+    if(state3){
       getDist();
-
-      Serial.print(thumb_x);
-      Serial.print("//");
-      Serial.print(thumb_y);
-      Serial.print("//");
-      Serial.print(gest_x);
-      Serial.print("//");
-      Serial.print(gest_y);
-      Serial.print("//");
-      Serial.println(dist);
-      previousDelay = currentMillis;
     }
 
-
-    
+    Serial.print(thumb_x);
+    Serial.print("//");
+    Serial.print(thumb_y);
+    Serial.print("//");
+    Serial.print(gest_x);
+    Serial.print("//");
+    Serial.print(gest_y);
+    Serial.print("//");
+    Serial.println(dist);
+    previousDelay = currentMillis;
   }
+}
