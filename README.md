@@ -15,19 +15,22 @@ This repo covers the set-up of the nerdland installation. This introduces nerds 
 - [Grove Thumbstick](https://wiki.seeedstudio.com/Grove-Thumb_Joystick/)
 - [Grove Gesture Sensor 1.0](https://wiki.seeedstudio.com/Grove-Gesture_v1.0/)
 - [Grove UltraSonic Ranger](https://wiki.seeedstudio.com/Grove-Ultrasonic_Ranger/)
-- [3 Buttons](https://www.otronic.nl/nl/drukknopje-moment-6x6x4.html?source=googlebase&gad_source=1)
+- [4 arcade buttons](https://www.gotron.be/componenten/schakelmateriaal/schakelaars-en-drukknoppen/arcade-knoppen/lichtgevende-arcade-drukknop-30mm-groen.html)
 - [Case](https://a360.co/4drFMZX)
 - [Joystick](https://a360.co/44EoTHn)
 - Mini USB Cable
 ### Set-up
 - Connect the thumbstick to A0
-- Connec the Gesture sensor to I2C
+- Connect the Gesture sensor to I2C
 - Connect the distance sensor to A2
+- Connect button 1 to D4
+- Connect button 2 to D6
+- Connect button 3 to A2
+- Connect button 4 to A6 
 - Upload the [Arduino code](/tests/arduino/integration.ino)
 - The arduino writes the data to the Serial Port in the folowing format
   ```x_axis_thumb|y_axis_thumb|x_axis_gesture|y_axis_gesture|distance```
 - [ ] Case design [*Bas en Yannick*]
-- [ ] to do: add buttons to start and stop measurements [*Bas*]
 - [ ] to do: add reset routine (incl. defaults params)
 
 ## Computational Design
