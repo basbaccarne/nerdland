@@ -174,7 +174,7 @@ void loop() {
   // Timer
   currentMillis = millis();
 
-  // Get the thumb data  and print the result to firefly each 200 ms
+  // Get the data and print the result to firefly each 200 ms
   if (currentMillis - previousDelay > 200) {
     buttons();
     if(state1){
