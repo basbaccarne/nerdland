@@ -26,6 +26,9 @@ int sensorValue2;
 Ultrasonic ultrasonic(2);
 long RangeInCentimeters;
 
+// buttons
+
+
 // Output parameters
 int thumb_x = 0;
 int thumb_y = 0;
