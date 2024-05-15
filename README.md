@@ -12,6 +12,7 @@ This repo covers the set-up of the nerdland installation. This introduces nerds 
 ## Interaction Design
 ### Components
 - [Arduino Nano](https://store.arduino.cc/products/arduino-nano)
+- [Grove Shield for Arduino Nano](https://wiki.seeedstudio.com/Grove_Shield_for_Arduino_Nano/)
 - [Grove Thumbstick](https://wiki.seeedstudio.com/Grove-Thumb_Joystick/)
 - [Grove Gesture Sensor 1.0](https://wiki.seeedstudio.com/Grove-Gesture_v1.0/)
 - [Grove UltraSonic Ranger](https://wiki.seeedstudio.com/Grove-Ultrasonic_Ranger/)
