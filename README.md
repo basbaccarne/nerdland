@@ -17,6 +17,7 @@ This repo covers the set-up of the nerdland installation. This introduces nerds 
 - [Grove UltraSonic Ranger](https://wiki.seeedstudio.com/Grove-Ultrasonic_Ranger/)
 - [3 Buttons](https://www.otronic.nl/nl/drukknopje-moment-6x6x4.html?source=googlebase&gad_source=1)
 - [Case](https://a360.co/4drFMZX)
+- [Joystick](https://a360.co/44EoTHn)
 - Mini USB Cable
 ### Set-up
 - Connect the thumbstick to A0
