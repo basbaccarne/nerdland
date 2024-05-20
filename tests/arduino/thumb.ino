@@ -11,10 +11,9 @@ void loop()
     int sensorValue1 = analogRead(A0);
     int sensorValue2 = analogRead(A1);
 
-    Serial.print("The X and Y coordinate is:");
+    Serial.print("X:");
     Serial.print(sensorValue1, DEC);
-    Serial.print(",");
+    Serial.print(" // Y:");
     Serial.println(sensorValue2, DEC);
-    Serial.println(" ");
-    delay(200);
+    delay(100);
 }
