@@ -1,9 +1,9 @@
 # Nerdland
 *By: Lore Brosens, Bas Baccarne, Yannick Christiaens & Simon De Boever*   
 
-![nerdland](/img/nerdland.jpg)
+![nerdland](/img/nerdland.png)
 
-This repo covers the set-up of the nerdland installation. This introduces nerds into 4 domains:
+This repo covers the set-up of the [nerdland](https://www.nerdlandfestival.be/) installation. This introduces nerds into 4 domains:
 - **Interaction Design**: Children can create their own paramertric design with an Arduino-controlled input device
 - **Computational Design**: This device feeds a firefly + grasshopper script that generates patterns in a predefined format
 - **Advanced manufacturing**: These shapes are exported as SVG files and laser cutted
