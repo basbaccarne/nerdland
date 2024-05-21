@@ -133,7 +133,7 @@ void getDist()
   // Map
   if (RangeInCentimeters < 80)
   {
-    dist = map(RangeInCentimeters, 0, 80, 1, 20);
+    dist = map(RangeInCentimeters, 0, 80, 10, 40);
     dist = dist/10;
   }
   // debugging prints
