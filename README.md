@@ -28,16 +28,13 @@ This repo covers the set-up of the nerdland installation. This introduces nerds 
 - Connect button 2 to D6
 - Connect button 3 to A2
 - Connect button 4 to A6 
-- Upload the [Arduino code](/tests/arduino/integration.ino)
+- Upload the [Arduino code](nerdland.ino)
 - The arduino writes the data to the Serial Port in the folowing format
   ```x_axis_thumb|y_axis_thumb|x_axis_gesture|y_axis_gesture|distance```
-- [ ] Case design [*Bas en Yannick*]
       
 ## Computational Design
 - This Serial Data is read by Firefly and translated into computaional commands
-- [This example code](tests/grasshopper/grasshopper_testscript.gh) shows how the data is processed in Grasshopper
-- [ ] to do: create Grasshopper script for night lamp [*Yannick*]
-- [ ] to do: calibrate signal ranges to match parameters [*Bas*]
+- [This Grasshopper script](nerdland.gh) shows how the data is processed in Grasshopper
       
 ## Advanced Manufacturing
 - The Grasshopper result is exported to an SVG and stored on a USB stick
