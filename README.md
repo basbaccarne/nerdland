@@ -25,7 +25,7 @@ These personalised fragments can be assembled into a night lamp
 - Mini USB Cable
 ### Set-up
 - Connect the thumbstick to A0
-- Connect the Gesture sensor to I2C
+- Connect the gesture sensor to I2C
 - Connect the distance sensor to D2
 - Connect button 1 to D5
 - Connect button 2 to D7
