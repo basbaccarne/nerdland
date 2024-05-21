@@ -45,7 +45,7 @@ These domains illustrate some of the key components of the [Ghent University](ht
 ## Computational Design
 - This Serial Data is read by [Firefly](https://www.food4rhino.com/en/app/firefly) and translated into computaional commands in [Grasshopper](https://www.grasshopper3d.com/)
 - [This Grasshopper script](grasshopper.gh) shows how the data is processed in Grasshopper
-- Parameters: size, orientation, pattern, count & shape
+- Parameters: ```size```, ```orientation```, ```pattern```, ```count``` & ```shape```
 - The results are 5 copies of personalized segment designs
   
 ![grasshopper](img/grasshopper.png)
