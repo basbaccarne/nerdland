@@ -32,7 +32,13 @@ These personalised fragments can be assembled into a night lamp
 - Connect button 3 to A3
 - Connect button 4 to A2 
 - Upload the [Arduino code](nerdland.ino)
-- The arduino writes the data to the Serial Port in the folowing format
+### Input
+- The interface changes the **thumb stick** values when the **first button** is pressed
+- The interface changes the **gestures** when the **second button** is pressed
+- The interfaces changes the **distance** when the **third button** is pressed
+- The interface **resets** the values when the **blue (fourth) button** is pressed
+### Output
+- The arduino writes the data to the Serial Port in the folowing format   
   ```x_axis_thumb|y_axis_thumb|x_axis_gesture|y_axis_gesture|distance```
       
 ## Computational Design
