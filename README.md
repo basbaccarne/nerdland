@@ -4,9 +4,9 @@
 
 This repo covers the set-up of the [nerdland](https://www.nerdlandfestival.be/) installation. This introduces nerds into 4 domains:
 - [**Interaction Design**](#interaction-design): Children can create their own paramertric design with an Arduino-controlled input device
-- **Computational Design**: This device feeds a firefly + grasshopper script that generates patterns in a predefined format
-- **Advanced manufacturing**: These shapes are exported as SVG files and laser cutted
-- **Design for Assembly**: These personalised fragments can be assembled into a night lamp
+- [**Computational Design**](#computational-design): This device feeds a firefly + grasshopper script that generates patterns in a predefined format
+- [**Advanced manufacturing**](#advanced-manufacturing): These shapes are exported as SVG files and laser cutted
+- [**Design for Assembly**](#design-for-assembly): These personalised fragments can be assembled into a night lamp
 
 ## Interaction Design
 ### Components
