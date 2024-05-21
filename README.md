@@ -1,7 +1,6 @@
 # Nerdland
-*By: Lore Brosens, Bas Baccarne, Yannick Christiaens & Simon De Boever*   
-
 ![nerdland](/img/nerdland.png)
+*By: Lore Brosens, Bas Baccarne, Yannick Christiaens & Simon De Boever*   
 
 This repo covers the set-up of the [nerdland](https://www.nerdlandfestival.be/) installation. This introduces nerds into 4 domains:
 - **Interaction Design**: Children can create their own paramertric design with an Arduino-controlled input device
