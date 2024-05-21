@@ -2,7 +2,7 @@
 ![nerdland](/img/nerdland.png)
 *Made with* ❤ *by Lore Brosens, Bas Baccarne, Yannick Christiaens & Simon De Boever*   
 
-This repo covers the set-up of the [nerdland](https://www.nerdlandfestival.be/) installation. This introduces nerds into 4 domains:
+This repo covers the set-up of the [UGent Campus Kortrijk](https://www.ugent.be/campus-kortrijk/) [nerdland](https://www.nerdlandfestival.be/) installation. This introduces nerds into 4 domains:
 - [**Interaction Design**](#interaction-design):   
 Children can create their own paramertric design with an Arduino-controlled input device
 - [**Computational Design**](#computational-design):   
