@@ -32,8 +32,7 @@ This repo covers the set-up of the nerdland installation. This introduces nerds 
 - The arduino writes the data to the Serial Port in the folowing format
   ```x_axis_thumb|y_axis_thumb|x_axis_gesture|y_axis_gesture|distance```
 - [ ] Case design [*Bas en Yannick*]
-- [ ] to do: add reset routine (incl. defaults params)
-
+      
 ## Computational Design
 - This Serial Data is read by Firefly and translated into computaional commands
 - [This example code](tests/grasshopper/grasshopper_testscript.gh) shows how the data is processed in Grasshopper
