@@ -34,7 +34,7 @@ This repo covers the set-up of the nerdland installation. This introduces nerds 
       
 ## Computational Design
 - This Serial Data is read by Firefly and translated into computaional commands
-- [This Grasshopper script](nerdland.gh) shows how the data is processed in Grasshopper
+- [This Grasshopper script](grasshopper.gh) shows how the data is processed in Grasshopper
       
 ## Advanced Manufacturing
 - The Grasshopper result is exported to an SVG and stored on a USB stick
