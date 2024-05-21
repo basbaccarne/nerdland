@@ -1,6 +1,6 @@
 # Nerdland
 ![nerdland](/img/nerdland.png)
-*By: Lore Brosens, Bas Baccarne, Yannick Christiaens & Simon De Boever*   
+*Made with* ❤ *by Lore Brosens, Bas Baccarne, Yannick Christiaens & Simon De Boever*   
 
 This repo covers the set-up of the [nerdland](https://www.nerdlandfestival.be/) installation. This introduces nerds into 4 domains:
 - [**Interaction Design**](#interaction-design):   
@@ -12,6 +12,7 @@ These shapes are exported as SVG files and laser cutted
 - [**Design for Assembly**](#design-for-assembly):   
 These personalised fragments can be assembled into a night lamp
 
+These domains illustrate some of the key components of the [Ghent University](https://www.ugent.be/) programs [Machine & Production Automatisation](https://www.ugent.be/campus-kortrijk/nl/opleidingen/mpa) and [Industrial Design Engineering](https://www.ugent.be/campus-kortrijk/nl/opleidingen/industrieel-ontwerpen)
 ## Interaction Design
 ### Components
 - [Arduino Nano](https://store.arduino.cc/products/arduino-nano)
