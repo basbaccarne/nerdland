@@ -20,9 +20,9 @@ These personalised fragments can be assembled into a night lamp
 - [Grove Gesture Sensor 1.0](https://wiki.seeedstudio.com/Grove-Gesture_v1.0/)
 - [Grove UltraSonic Ranger](https://wiki.seeedstudio.com/Grove-Ultrasonic_Ranger/)
 - [4 arcade buttons](https://www.gotron.be/componenten/schakelmateriaal/schakelaars-en-drukknoppen/arcade-knoppen/lichtgevende-arcade-drukknop-30mm-groen.html)
+- [Mini USB Cable](https://www.allekabels.be/usb-mini-kabel/176/4207900/mini-usb-kabel.html?lang=nl-be)
 - [Case](https://a360.co/4drFMZX)
 - [Joystick](https://a360.co/44EoTHn)
-- Mini USB Cable
 ### Set-up
 - Connect the thumbstick to A0
 - Connect the gesture sensor to I2C
