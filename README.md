@@ -23,18 +23,18 @@ This repo covers the set-up of the nerdland installation. This introduces nerds 
 ### Set-up
 - Connect the thumbstick to A0
 - Connect the Gesture sensor to I2C
-- Connect the distance sensor to A2
-- Connect button 1 to D4
-- Connect button 2 to D6
-- Connect button 3 to A2
-- Connect button 4 to A6 
+- Connect the distance sensor to D2
+- Connect button 1 to D5
+- Connect button 2 to D7
+- Connect button 3 to A3
+- Connect button 4 to A2 
 - Upload the [Arduino code](nerdland.ino)
 - The arduino writes the data to the Serial Port in the folowing format
   ```x_axis_thumb|y_axis_thumb|x_axis_gesture|y_axis_gesture|distance```
       
 ## Computational Design
 - This Serial Data is read by Firefly and translated into computaional commands
-- [This Grasshopper script](nerdland.gh) shows how the data is processed in Grasshopper
+- [This Grasshopper script](grasshopper.gh) shows how the data is processed in Grasshopper
       
 ## Advanced Manufacturing
 - The Grasshopper result is exported to an SVG and stored on a USB stick
