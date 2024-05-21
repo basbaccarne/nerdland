@@ -197,13 +197,13 @@ void loop()
     }
 
     Serial.print(thumb_x);
-    Serial.print("//");
+    Serial.print("|");
     Serial.print(thumb_y);
-    Serial.print("//");
+    Serial.print("|");
     Serial.print(gest_x);
-    Serial.print("//");
+    Serial.print("|");
     Serial.print(gest_y);
-    Serial.print("//");
+    Serial.print("|");
     Serial.println(dist);
     previousDelay = currentMillis;
   }
