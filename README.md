@@ -33,16 +33,19 @@ This repo covers the set-up of the nerdland installation. This introduces nerds 
   ```x_axis_thumb|y_axis_thumb|x_axis_gesture|y_axis_gesture|distance```
       
 ## Computational Design
-- This Serial Data is read by Firefly and translated into computaional commands
+- This Serial Data is read by [Firefly](https://www.food4rhino.com/en/app/firefly) and translated into computaional commands in [Grasshopper](https://www.grasshopper3d.com/)
 - [This Grasshopper script](grasshopper.gh) shows how the data is processed in Grasshopper
-      
+  
+![grasshopper](img/grasshopper.png)
 ## Advanced Manufacturing
-- The Grasshopper result is exported to an SVG and stored on a USB stick
-- The USB stick is used to print the design using a laser cutter
-- Material:
+- The Grasshopper result is baked and exported to an SVG
+- The SVG file is printed on a laser cutter using [lightburn](https://lightburnsoftware.com/)
+- Material: HDPE Matte/Matte Sheets
 ## Design for Assembly
+- The bottom parts are preprinted
+- The bottom fits a [small led tea light](https://www.amazon.com.be/-/en/Afoosoo-Flameless-Battery-Waterproof-Christmas/dp/B0BV1HZ5NH/ref=asc_df_B0BV1HZ5NH/)
+- The top has 5 personalized segments
 - Assembly movie
-- Examples
 
 ## End result
 ![prototype](img/productv1.png)
