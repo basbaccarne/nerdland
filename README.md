@@ -23,7 +23,7 @@ These domains illustrate some of the key components of the [Ghent University](ht
 - [4 arcade buttons](https://www.gotron.be/componenten/schakelmateriaal/schakelaars-en-drukknoppen/arcade-knoppen/lichtgevende-arcade-drukknop-30mm-groen.html)
 - [Mini USB Cable](https://www.allekabels.be/usb-mini-kabel/176/4207900/mini-usb-kabel.html?lang=nl-be)
 - [Case](https://a360.co/4drFMZX)
-- [Joystick](https://a360.co/44EoTHn)
+- [Joystick](https://a360.co/3WSIDWa)
 ### Set-up
 - Connect the thumbstick to A0
 - Connect the gesture sensor to I2C
