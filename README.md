@@ -12,7 +12,7 @@ These shapes are exported as SVG files and laser cutted
 - [**Design for Assembly**](#design-for-assembly):   
 These personalised fragments can be assembled into a night lamp
 
-These domains illustrate some of the key components of the [Ghent University](https://www.ugent.be/) programs [Machine & Production Automatisation](https://www.ugent.be/campus-kortrijk/nl/opleidingen/mpa) and [Industrial Design Engineering](https://www.ugent.be/campus-kortrijk/nl/opleidingen/industrieel-ontwerpen)
+These domains illustrate some of the key components of the [Ghent University](https://www.ugent.be/) programs [Machine & Production Automation](https://www.ugent.be/campus-kortrijk/nl/opleidingen/mpa) and [Industrial Design Engineering](https://www.ugent.be/campus-kortrijk/nl/opleidingen/industrieel-ontwerpen)
 ## Interaction Design
 ### Components
 - [Arduino Nano](https://store.arduino.cc/products/arduino-nano)
