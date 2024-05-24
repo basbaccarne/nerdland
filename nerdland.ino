@@ -44,7 +44,7 @@ int init_thumb_x = 1;
 int init_thumb_y = 0;
 int init_gest_x = 0;
 int init_gest_y = 0;
-float init_dist = 0.01;
+float init_dist = 1;
 
 void setup()
 {
