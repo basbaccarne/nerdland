@@ -4,7 +4,7 @@
 
 This repo covers the set-up of the [UGent Campus Kortrijk](https://www.ugent.be/campus-kortrijk/) [Nerdland](https://www.nerdlandfestival.be/) installation. This introduces nerds into 4 domains:
 - [**Interaction Design**](#interaction-design):   
-Children can create their own paramertric design with an Arduino-controlled input device
+Visitors can create their own paramertric design with an Arduino-controlled input device
 - [**Computational Design**](#computational-design):   
 This device feeds a firefly + grasshopper script that generates patterns in a predefined format
 - [**Advanced Manufacturing**](#advanced-manufacturing):   
@@ -50,14 +50,18 @@ These domains illustrate some of the key components of the [Ghent University](ht
   
 ![grasshopper](img/grasshopper.png)
 ## Advanced Manufacturing
-- The Grasshopper result is baked and exported to an SVG
+- The Grasshopper result is baked and exported to a .dxf file
 - The SVG file is printed on a laser cutter using [lightburn](https://lightburnsoftware.com/)
-- Material: HDPE Matte/Matte Sheets
+- Material: [Akyplen® wit 460 g/m²](https://igepa.nl/06-0007-0007-akyplenr-wit-460-g-m-700-mm-x-1000-mm-500)
+- If you want to use the pregenerated design: this is the [file with the base segments]() & this is a [pregenerated file with the parts with a pattern]()
 ## Design for Assembly
-- The bottom parts are preprinted
-- The bottom fits a [small led tea light](https://www.amazon.com.be/-/en/Afoosoo-Flameless-Battery-Waterproof-Christmas/dp/B0BV1HZ5NH/ref=asc_df_B0BV1HZ5NH/)
-- The top has 5 personalized segments
-- Assembly movie
+- The five segments are printed in the laser cutter
+- Visitors get a enveloppe with
+  - a preprinted bottom part
+  - 10 preprinted segments without a pattern
+  - a small led light that fits in the bottom > [small led tea light](https://www.amazon.com.be/-/en/Afoosoo-Flameless-Battery-Waterproof-Christmas/dp/B0BV1HZ5NH/ref=asc_df_B0BV1HZ5NH/)
+- How to put everything together? Watch this movie
+[![assembly](img/assembly.png)](https://www.youtube.com/watch?v=dlgAcVDjcDM)
 
 ## End result
 ![prototype](img/productv1.png)
