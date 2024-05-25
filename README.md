@@ -53,12 +53,12 @@ These domains illustrate some of the key components of the [Ghent University](ht
 - The Grasshopper result is baked and exported to a .dxf file
 - The SVG file is printed on a laser cutter using [lightburn](https://lightburnsoftware.com/)
 - Material: [Akyplen® wit 460 g/m²](https://igepa.nl/06-0007-0007-akyplenr-wit-460-g-m-700-mm-x-1000-mm-500)
-- If you want to use the pregenerated design: this is the [file with the base segments](samples/Basis File_10 _ides_en_bodem.dxf) & this is a [pregenerated file with the parts with a pattern](samples/Accent_file_5_sides.dxf)
+- If you want to use the pregenerated design: this is the [file with the base segments](samples/Basis_File_10_sides_en_bodem.dxf) & this is a [pregenerated file with the parts with a pattern](samples/Accent_file_5_sides.dxf)
 ## Design for Assembly
 - The five segments are printed in the laser cutter
 - Visitors get a enveloppe with
-  - a preprinted bottom part
-  - 10 preprinted segments without a pattern
+  - a preprinted [bottom part](samples/Basis_File_10_sides_en_bodem.dxf)
+  - 10 preprinted [segments without a pattern](samples/Basis_File_10_sides_en_bodem.dxf)
   - a small led light that fits in the bottom > [small led tea light](https://www.amazon.com.be/-/en/Afoosoo-Flameless-Battery-Waterproof-Christmas/dp/B0BV1HZ5NH/ref=asc_df_B0BV1HZ5NH/)
 - How to put everything together? Watch this movie
 [![assembly](img/assembly.png)](https://www.youtube.com/watch?v=dlgAcVDjcDM)
