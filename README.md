@@ -41,6 +41,8 @@ These domains illustrate some of the key components of the [Ghent University](ht
 ### Output
 - The arduino writes the data to the Serial Port in the folowing format   
   ```x_axis_thumb|y_axis_thumb|x_axis_gesture|y_axis_gesture|distance```
+
+  ![console](img/console.jpg)
       
 ## Computational Design
 - This Serial Data is read by [Firefly](https://www.food4rhino.com/en/app/firefly) and translated into computaional commands in [Grasshopper](https://www.grasshopper3d.com/)
@@ -64,4 +66,5 @@ These domains illustrate some of the key components of the [Ghent University](ht
 [![assembly](img/assembly.png)](https://www.youtube.com/watch?v=dlgAcVDjcDM)
 
 ## End result
+![light hanging](img/light_hanging.jpg)
 ![prototype](img/productv1.png)
