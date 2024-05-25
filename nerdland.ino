@@ -40,11 +40,11 @@ int gest_y = 0;
 float dist = 0.01;
 
 // Default settings (for reset)
-int init_thumb_x = 1;
-int init_thumb_y = 0;
+int init_thumb_x = 8;
+int init_thumb_y = 50;
 int init_gest_x = 0;
 int init_gest_y = 0;
-float init_dist = 0.01;
+float init_dist = 1;
 
 void setup()
 {
@@ -133,7 +133,7 @@ void getDist()
   // Map
   if (RangeInCentimeters < 80)
   {
-    dist = map(RangeInCentimeters, 0, 80, 1, 20);
+    dist = map(RangeInCentimeters, 0, 80, 10, 40);
     dist = dist/10;
   }
   // debugging prints
