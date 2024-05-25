@@ -8,7 +8,7 @@ Visitors can create their own paramertric design with an Arduino-controlled inpu
 - [**Computational Design**](#computational-design):   
 This device feeds a firefly + grasshopper script that generates patterns in a predefined format
 - [**Advanced Manufacturing**](#advanced-manufacturing):   
-These shapes are exported as SVG files and laser cutted
+These shapes are exported as dxf files and laser cutted
 - [**Design for Assembly**](#design-for-assembly):   
 These personalised fragments can be assembled into a night lamp
 
@@ -53,7 +53,7 @@ These domains illustrate some of the key components of the [Ghent University](ht
 ![grasshopper](img/grasshopper.png)
 ## Advanced Manufacturing
 - The Grasshopper result is baked and exported to a .dxf file
-- The SVG file is printed on a laser cutter using [lightburn](https://lightburnsoftware.com/)
+- The dxf file is printed on a laser cutter using [lightburn](https://lightburnsoftware.com/)
 - Material: [Akyplen® wit 460 g/m²](https://igepa.nl/06-0007-0007-akyplenr-wit-460-g-m-700-mm-x-1000-mm-500)
 - If you want to use the pregenerated design: this is the [file with the base segments](samples/Basis_File_10_sides_en_bodem.dxf) & this is a [pregenerated file with the parts with a pattern](samples/Accent_file_5_sides.dxf)
 ## Design for Assembly
