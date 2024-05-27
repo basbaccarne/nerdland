@@ -13,6 +13,9 @@ These shapes are exported as dxf files and laser cutted
 These personalised fragments can be assembled into a night lamp
 
 These domains illustrate some of the key components of the [Ghent University](https://www.ugent.be/) programs [Machine & Production Automation](https://www.ugent.be/campus-kortrijk/nl/opleidingen/mpa) and [Industrial Design Engineering](https://www.ugent.be/campus-kortrijk/nl/opleidingen/industrieel-ontwerpen)
+
+![live](/img/live.png)
+
 ## Interaction Design
 ### Components
 - [Arduino Nano](https://store.arduino.cc/products/arduino-nano)
