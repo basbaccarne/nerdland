@@ -1,4 +1,4 @@
-# Nerdland
+#  ~~Nerdland~~  Nerdlamp
 ![nerdland](/img/nerdland.png)
 *Made with* ❤ *by Lore Brosens, Bas Baccarne, Yannick Christiaens & Simon De Boever*   
 
