@@ -53,12 +53,21 @@ These domains illustrate some of the key components of the [Ghent University](ht
 - Parameters: ```size```, ```orientation```, ```pattern```, ```count``` & ```shape```
 - The results are 5 copies of personalized segment designs
   
-![grasshopper](img/grasshopper.png)
+![grasshopper](img/grasshopper.png)   
+
 ## Advanced Manufacturing
 - The Grasshopper result is baked and exported to a .dxf file
 - The dxf file is printed on a laser cutter using [lightburn](https://lightburnsoftware.com/)
 - Material: [Akyplen® wit 460 g/m²](https://igepa.nl/06-0007-0007-akyplenr-wit-460-g-m-700-mm-x-1000-mm-500)
 - If you want to use the pregenerated design: this is the [file with the base segments](samples/Basis_File_10_sides_en_bodem.dxf) & this is a [pregenerated file with the parts with a pattern](samples/Accent_file_5_sides.dxf)
+  
+**Curious about the math behind this lamp?**
+- The general shape is a [Rhombic triacontahedron](https://en.wikipedia.org/wiki/Rhombic_triacontahedron), with 30 rhombic (diamond-shaped) faces
+- From this shape, we remove 20 faces in the middle
+- See the video below for a basic visualization
+  
+https://github.com/basbaccarne/nerdland/assets/7208557/56421a35-1992-435b-bc12-0767cc13a605
+
 ## Design for Assembly
 - The five segments are printed in the laser cutter
 - Visitors get a enveloppe with
